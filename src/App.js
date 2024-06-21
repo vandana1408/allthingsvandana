@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>
+          It's Me! Vandana
+        </h1>
+        <div className="Incoming">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Woohooo! Got the react app deployed :) 
+          <br />
+          <br />
+          Hi! I'm Vandana. I'm early into my career in technology and am using this space to document my journey as it goes. I chose to make a react app for this purpose because I also want to develop my frontend skills a bit more and use this site to talk about all things ✨ Me ✨. 
+          <br />
+          <br />
+          More updates to come!
+
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        </div>
+        
     </div>
   );
 }
