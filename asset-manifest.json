@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/allthingsvandana/static/css/main.da10ef83.css",
+    "main.css": "/allthingsvandana/static/css/main.dc767847.css",
     "main.js": "/allthingsvandana/static/js/main.042266cd.js",
     "static/js/453.955acf2b.chunk.js": "/allthingsvandana/static/js/453.955acf2b.chunk.js",
     "index.html": "/allthingsvandana/index.html",
-    "main.da10ef83.css.map": "/allthingsvandana/static/css/main.da10ef83.css.map",
+    "main.dc767847.css.map": "/allthingsvandana/static/css/main.dc767847.css.map",
     "main.042266cd.js.map": "/allthingsvandana/static/js/main.042266cd.js.map",
     "453.955acf2b.chunk.js.map": "/allthingsvandana/static/js/453.955acf2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da10ef83.css",
+    "static/css/main.dc767847.css",
     "static/js/main.042266cd.js"
   ]
 }
