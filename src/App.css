@@ -1,17 +1,17 @@
 .App {
   text-align: center;
-  background-color: #d9d6c1;
+  background-color: #fcdddf;
+  min-width: 200vh;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-size: calc(10px + 2vmin);
   color:black;
+  margin: 0 auto;
 }
 
 .Incoming {
   margin-left: 50px;
   margin-right: 50px;
-  display: flex;
   text-align: center;
   align-self: center;
 }
@@ -29,7 +29,16 @@
 
 .App-header {
   align-items: center;
-  justify-content: center;  
+  justify-content: center; 
+}
+
+.TopSection {
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+  align-self: center;
+  margin: 50px;
+  display:flex;
+  flex-direction: column;
 }
 
 .App-link {
@@ -52,3 +61,18 @@
     transform: rotate(360deg);
   }
 } */
+
+.PrettyCards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .PrettyCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
