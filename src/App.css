@@ -1,78 +1,77 @@
-.App {
-  text-align: center;
+body, html {
+  margin: 20px;
+  padding: 0;
+  font-family: Arial, sans-serif;
   background-color: #fcdddf;
-  min-width: 200vh;
-  min-height: 100vh;
+}
+
+.App {
   display: flex;
   flex-direction: column;
-  color:black;
-  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .Incoming {
-  margin-left: 50px;
-  margin-right: 50px;
+  width: 100%;
+  background-color: #ffcbce;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  align-self: center;
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+p {
+  line-height: 1.6;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+img {
+  padding: 30px;
+  width: 280px;
+  height: 280px;
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.2);   
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
   }
-} */
 
-.App-header {
-  align-items: center;
-  justify-content: center; 
-}
-
-.TopSection {
-  font-size: calc(10px + 2vmin);
-  text-align: center;
-  align-self: center;
-  margin: 50px;
-  display:flex;
-  flex-direction: column;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-/* @media screen and (maxWidth=600px) {
   .Incoming {
-    width: 500px;
-    display: flex;
-    text-align: center;
-    align-self: center;
-  }  
-} */
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    padding: 15px;
   }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 
-.PrettyCards {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 100px;
+  img {
+    width: 250px;
+    height: 250px;
+  }
 }
 
-@media screen and (max-width: 600px) {
-  .PrettyCards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .Incoming {
+    padding: 10px;
+  }
+
+  img {
+    width: 175px;
+    height: 175px;
   }
 }
