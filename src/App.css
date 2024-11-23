@@ -32,10 +32,9 @@ h1 {
 .withincoming {
   width: 90%;
   background-color: #fff8eb;
-  padding: 50px;
+  padding: 30px;
   text-align: left;
 }
-
 
 p {
   line-height: 1.6;
@@ -55,6 +54,10 @@ img {
 
   .Incoming {
     padding: 15px;
+  }
+
+  .withincoming {
+    padding: 10px;
   }
 
   img {
