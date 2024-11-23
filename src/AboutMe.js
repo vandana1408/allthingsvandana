@@ -2,17 +2,20 @@ import './App.css';
 
 function AboutMe() {
     return (
-        <div className="Incoming">
+        <div class="Incoming">
             <p>
-                Woohooo! Got the react app deployed :) 
+                <h2>
+                    About Me!
+                </h2>
+                Keeping this page simple for a low maintenance aesthetic :).
                 <br />
                 <br />
                 Hi! I'm Vandana. I'm early into my career in technology and am using this space to document my journey as it goes. I chose to make a react app for this purpose because I also want to develop my frontend skills a bit more and use this site to talk about all things ✨ Me ✨. 
                 <br /> 
                 <br />
-                I studied a Bachelor of Bioinformatics Engineering in my undergrad (think biology had a child with computer/data science). Aside from academics I involved myself in the UNSW Bioinformatics Society to learn more about the area and forge connections with others studying my degree.
-                Currently, I'm completing a graduate program, with my first rotation in the HR Technology function, that supports 48 900 employees. I help build and maintain the platforms used by the HR Team, primarily focused on applications in Workday. <br/>
-                <br /> My main hobbies include knitting/crocheting and reading, simply because every new garment made or book read has the same levels of satisfaction as deploying a new release to PROD. I got into knitting and crocheting heavily during the first COVID lockdown and enjoy reading for the stories.  
+                I studied a Bachelor of Bioinformatics Engineering at UNSW, where I took some coding subjects and gained a interest into engineering and technology. Aside from academics, I involved myself in a few societies to find others studying my degree and connect with those that I shared similar interests with.
+                Currently, I'm completing a graduate program at a prominent Australian Bank in their engineering stream, where I hope to roll off as a software engineer.<br/>
+                <br /> When I'm not hunched over a computer, I like to knit and crochet (I'm clearly quite active). A passive hobby from my childhood turned into an interest developed as quick as my interest in software engineering had over the COVID lockdowns and now I make clothes to express my creative side. 
                 <br /> <br /> Eventually the boxes below will take you to more information about myself in that category but for now this will just look like a static website 😅. 
             </p>
           </div>
