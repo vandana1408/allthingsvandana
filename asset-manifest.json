@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/allthingsvandana/static/css/main.20547494.css",
-    "main.js": "/allthingsvandana/static/js/main.998ab9ca.js",
+    "main.css": "/allthingsvandana/static/css/main.00d0cadd.css",
+    "main.js": "/allthingsvandana/static/js/main.f9ba805d.js",
     "static/js/453.955acf2b.chunk.js": "/allthingsvandana/static/js/453.955acf2b.chunk.js",
-    "static/media/career.gif": "/allthingsvandana/static/media/career.dc55f4a4128c662059ea.gif",
-    "static/media/yarn.png": "/allthingsvandana/static/media/yarn.16af9fef11e4c9492a3a.png",
-    "static/media/aboutme.png": "/allthingsvandana/static/media/aboutme.b336a62269ace42b034c.png",
+    "static/media/career.gif": "/allthingsvandana/static/media/career.0ce763d1cccceaacb333.gif",
+    "static/media/yarn.png": "/allthingsvandana/static/media/yarn.121b4c3f469dc9346421.png",
+    "static/media/aboutme.png": "/allthingsvandana/static/media/aboutme.7cb163ab9bab9afa6264.png",
     "index.html": "/allthingsvandana/index.html",
-    "main.20547494.css.map": "/allthingsvandana/static/css/main.20547494.css.map",
-    "main.998ab9ca.js.map": "/allthingsvandana/static/js/main.998ab9ca.js.map",
+    "main.00d0cadd.css.map": "/allthingsvandana/static/css/main.00d0cadd.css.map",
+    "main.f9ba805d.js.map": "/allthingsvandana/static/js/main.f9ba805d.js.map",
     "453.955acf2b.chunk.js.map": "/allthingsvandana/static/js/453.955acf2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20547494.css",
-    "static/js/main.998ab9ca.js"
+    "static/css/main.00d0cadd.css",
+    "static/js/main.f9ba805d.js"
   ]
 }
