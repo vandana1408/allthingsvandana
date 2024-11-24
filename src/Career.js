@@ -1,4 +1,5 @@
 import './App.css';
+import VerticalLinearStepper from './components/Timeline';
 
 function Career() {
     return (
@@ -8,6 +9,7 @@ function Career() {
             </h2>
             I apologise that this currently looks like my resume but I'm throwing in some key points about my career before I begin to embellish!
             <br></br><br></br>
+            <VerticalLinearStepper></VerticalLinearStepper>
             <div className="withincoming">
                 <b>HSC 2019</b>
                 <p> 
