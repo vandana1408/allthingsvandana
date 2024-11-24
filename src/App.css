@@ -67,5 +67,10 @@ img {
   .Incoming {
     padding: 10px;
   }
+
+  img {
+    width: 175px;
+    height: 70px;
+  }
 }
 
