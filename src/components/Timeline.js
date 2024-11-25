@@ -47,51 +47,63 @@ function VerticalLinearStepper() {
   return (
     <Box sx={{ maxWidth: 400 }}>
       <Stepper activeStep={activeStep} orientation="vertical" sx={{
-                '& .MuiSvgIcon-root': {
-                  borderRadius: '1px',
-                  color: "black"
-                },
-                '& .MuiStepContent-root': {
-                  borderRadius: '1px',
-                  borderLeft: "1px solid black"
-                },
-                '& .MuiStepConnector-line': {
-                  borderRadius: '1px',
-                  borderLeft: "1px solid black"
-                },
-                '& .MuiButton-containedPrimary': {
-                  backgroundColor: 'black',
-                  border: "1px"
-                },
-                '& .MuiButton-textPrimary': {
-                  color: 'black',
-                  border: "1px"
-                },
-              }}>
+          '& .MuiStepContent-root': {
+            borderRadius: '1px',
+            borderLeft: '1px solid black',
+          },
+          '& .MuiStepConnector-line': {
+            borderRadius: '1px',
+            borderLeft: '1px solid black',
+          },
+          '& .MuiButton-containedPrimary': {
+            backgroundColor: 'black',
+            border: '1px',
+          },
+          '& .MuiButton-textPrimary': {
+            color: 'black',
+            border: '1px',
+          },
+          '& .MuiStepIcon-root.Mui-active': {
+            color: 'black', // Ensure active step icon remains black
+          },
+          '& .MuiStepIcon-root.Mui-completed': {
+            color: 'black', // Ensure active step icon remains black
+          },
+          '& .MuiSvgIcon-root': {
+            borderRadius: '1px',
+            color: 'black', // Ensure all step icons remain black
+          },
+        }}>
         {steps.map((step, index) => (
           <Step key={step.label}>
             <StepLabel
               sx={{
-                '& .MuiSvgIcon-root': {
-                  borderRadius: '1px',
-                  color: "black"
-                },
                 '& .MuiStepContent-root': {
                   borderRadius: '1px',
-                  borderLeft: "1px solid black"
+                  borderLeft: '1px solid black',
                 },
                 '& .MuiStepConnector-line': {
                   borderRadius: '1px',
-                  borderLeft: "1px solid black"
+                  borderLeft: '1px solid black',
                 },
                 '& .MuiButton-containedPrimary': {
                   backgroundColor: 'black',
-                  border: "1px"
+                  border: '1px',
                 },
                 '& .MuiButton-textPrimary': {
                   color: 'black',
-                  border: "1px"
+                  border: '1px',
                 },
+                '& .MuiStepIcon-root.Mui-active': {
+                  color: 'black', // Ensure active step icon remains black
+                },
+                '& .MuiStepIcon-root.Mui-completed': {
+                  color: 'black', // Ensure active step icon remains black
+                },   
+                '& .MuiSvgIcon-root': {
+                  borderRadius: '1px',
+                  color: 'black', // Ensure all step icons remain black
+                },   
               }}
               optional={
                 index === steps.length - 1 ? (
