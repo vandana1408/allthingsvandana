@@ -41,7 +41,7 @@ function Career() {
                 </p>
                 <b>The future</b>
                 <p>
-                    The job market is fickle and I'm not fully sure what the future will hold for me. However, the areas I really want to develop on at the moment are in security practices when it comes to writing code, and understanding cloud. 
+                    The areas I really want to develop on at the moment are in security practices when it comes to writing code, and understanding cloud. 
                     I also want to develop further on understanding complex architectures when it comes to building APIs for complex applications and bigger systems. 
                 </p>
             </div>
