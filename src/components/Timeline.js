@@ -7,7 +7,7 @@ import StepContent from '@mui/material/StepContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-function VerticalLinearStepper({steps}) {
+function Timeline({steps}) {
   const [activeStep, setActiveStep] = React.useState(0);
 
   const handleNext = () => {
@@ -18,69 +18,43 @@ function VerticalLinearStepper({steps}) {
     setActiveStep((prevActiveStep) => prevActiveStep - 1);
   };
 
+  const stepperStyles = {
+    '& .MuiStepContent-root': { // THIS ENTIRE SECTION NEEDS TO BE REFACTORED!!!
+      borderLeft: '1px solid black',
+    },
+    '& .MuiStepConnector-line': {
+      borderLeft: '1px solid black',
+    },
+    '& .MuiButton-containedPrimary': {
+      backgroundColor: 'black',
+      border: '1px',
+      '&:hover': {
+        backgroundColor: '#3c434a', 
+      },
+    },
+    '& .MuiButton-textPrimary': {
+      color: 'black',
+      border: '1px',
+    },
+    '& .MuiStepIcon-root.Mui-active': {
+      color: 'black', 
+    },
+    '& .MuiStepIcon-root.Mui-completed': {
+      color: 'black', 
+    },
+    '& .MuiSvgIcon-root': {
+      borderRadius: '1px',
+      color: 'black', 
+    },
+  }
+
   return (
     <Box> 
-      <Stepper activeStep={activeStep} orientation="vertical" sx={{
-          '& .MuiStepContent-root': { // THIS ENTIRE SECTION NEEDS TO BE REFACTORED!!!
-            borderLeft: '1px solid black',
-          },
-          '& .MuiStepConnector-line': {
-            borderLeft: '1px solid black',
-          },
-          '& .MuiButton-containedPrimary': {
-            backgroundColor: 'black',
-            border: '1px',
-            '&:hover': {
-              backgroundColor: '#3c434a', 
-            },
-          },
-          '& .MuiButton-textPrimary': {
-            color: 'black',
-            border: '1px',
-          },
-          '& .MuiStepIcon-root.Mui-active': {
-            color: 'black', 
-          },
-          '& .MuiStepIcon-root.Mui-completed': {
-            color: 'black', 
-          },
-          '& .MuiSvgIcon-root': {
-            borderRadius: '1px',
-            color: 'black', 
-          },
-        }}>
+      <Stepper activeStep={activeStep} orientation="vertical" sx={stepperStyles}>
         {steps.map((step, index) => (
           <Step key={step.label}>
             <StepLabel
-              sx={{
-                '& .MuiStepContent-root': {
-                  borderLeft: '1px solid black',
-                },
-                '& .MuiStepConnector-line': {
-                  borderLeft: '1px solid black',
-                },
-                '& .MuiButton-containedPrimary': {
-                  backgroundColor: 'black',
-                  border: '1px',
-                  '&:hover': {
-                    backgroundColor: '#3c434a', 
-                  },
-                },
-                '& .MuiButton-textPrimary': {
-                  color: 'black',
-                  border: '1px',
-                },  
-                '& .MuiStepIcon-root.Mui-active': {
-                  color: 'black', 
-                },
-                '& .MuiStepIcon-root.Mui-completed': {
-                  color: 'black',
-                },   
-                '& .MuiSvgIcon-root': {
-                  borderRadius: '1px',
-                  color: 'black', 
-                },   
-              }}
+              sx={stepperStyles}
               optional={
                 index === steps.length - 1 ? (
                   <Typography variant="caption">Last step</Typography>
@@ -111,4 +85,4 @@ function VerticalLinearStepper({steps}) {
   );
 }
 
-export default VerticalLinearStepper
+export default Timeline
