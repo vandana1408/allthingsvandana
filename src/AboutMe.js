@@ -16,7 +16,7 @@ function AboutMe() {
                 I studied a Bachelor of Bioinformatics Engineering at UNSW, where I took some coding subjects and gained a interest into engineering and technology. Aside from academics, I involved myself in a few societies to find others studying my degree and connect with those that I shared similar interests with.
                 Currently, I'm completing a graduate program at a prominent Australian Bank in their engineering stream, where I hope to roll off as a software engineer.<br/>
                 <br /> When I'm not hunched over a computer, I like to knit and crochet (I'm clearly quite active). A passive hobby from my childhood turned into an interest developed as quick as my interest in software engineering had over the COVID lockdowns and now I make clothes to express my creative side. 
-                <br /> <br /> Eventually the boxes below will take you to more information about myself in that category but for now this will just look like a static website 😅. 
+                <br /> <br /> By pressing on the boxes above, you'll be take to more information in that particular area. Some areas haven't been filled in yet so that's why this just looks like a static website for now 😅. 
             </p>
           </div>
     );
