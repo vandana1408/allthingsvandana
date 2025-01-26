@@ -1,5 +1,6 @@
 import './App.css';
 import Timeline from './components/Timeline';
+import Thesis from './components/files/thesis.pdf';
 
 const stepsInfo = [
     {
@@ -49,7 +50,13 @@ function Career() {
                 My Career 
             </h2>
             This timeline of my career was made using the Material UI framework with a couple customisations here and there to fit the colour scheme of this site. It's a work in progress, but that's the whole point of this website! 
-            I hope to also include more detail into my experiences but if I'm lucky and work hard, this page will always be an unfinished novel 😊. 
+            I hope to also include more detail into my experiences but if I'm lucky and work hard, this page will always be an unfinished novel 😊. For more information on my career points, please refer to the links below. 
+            <br></br><br></br>
+            <div className="LinksDisplay">
+              <a href="https://www.linkedin.com/in/vandana-prathapar/" id="LinkedIn">LinkedIn</a> 
+              <a href={Thesis} id="Thesis">Thesis</a>
+              <a href="https://github.com/LanLab/MGT-local" id="MGTdbapp">MGTdb (Hons)</a>
+            </div>
             <br></br><br></br>
             <Timeline steps={stepsInfo}></Timeline>
         </div>
