@@ -29,6 +29,18 @@ h1 {
   text-align: center;
 }
 
+.LinksDisplay {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: wrap;
+  gap: 15px;
+}
+
+.LinksDisplay a {
+  color: black;
+}
+
 .withincoming {
   width: 100%;
   background-color: #fff8eb;
@@ -57,6 +69,11 @@ img {
     padding: 10px;
   }
 
+  .LinksDisplay {
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+  }    
 }
 
 @media (max-width: 480px) {
@@ -72,5 +89,14 @@ img {
     width: 175px;
     height: 70px;
   }
+
+  .LinksDisplay {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+
 }
 
