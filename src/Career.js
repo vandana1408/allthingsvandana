@@ -25,7 +25,7 @@ const stepsInfo = [
       label: 'Final Year of Undergrad: 2023',
       description: `I completed my Honours on “Refactoring and Further Development of the Multilevel Genome Typing Database”, which is a website for researchers to perform the MGT method on bacterial genomes 
                     to help identify relationships between many collected isolates. My project invovled refactoring the codebase of the Django application to improve feature building, and optimising the local installation 
-                    of the application for wet lab researchers running the method and app on their local machines. Towards the end of my internship I also completed an internship at a medical research institute to 
+                    of the application for wet lab researchers running the method and app on their local machines. Towards the end of the year, I also completed an internship at a medical research institute to 
                     build a database and UI for wetlab researchers to track their experiment samples as they go through multiple processes and tracking each process in a structured way.`,
     },
     {
