@@ -7,5 +7,4 @@ Will add documentation on important info I need for building and layout of appli
 
 
 ### Colour Schemes 
-#a06860, #eea69d, #d8998f, #ffcbce, #e88e96, #fcdddf;
-
+#e88e96, #020202, #fff8eb
